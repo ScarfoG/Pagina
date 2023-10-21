@@ -1,0 +1,109 @@
+body {
+  background-color: rgb(12, 11, 11);
+}
+.card {
+  transition: transform 0.5s ease;
+  transform: scale(0.9);
+  font-family: 'Young Serif', serif;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+.html{
+  scroll-behavior: smooth;
+}
+
+
+ 
+
+
+/*
+font-family: 'Croissant One', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'PT Serif', serif;
+font-family: 'Mukta', sans-serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+.columna {
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  background-color: black;
+  color: whitesmoke;
+  max-height: 50px;
+ }
+ .title{
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  font-family: 'PT Serif', serif;
+  padding-top: 20px;
+  }
+  
+.binn {
+  text-align: center;
+  color: white;
+  padding-top: 0%;
+  font-family: 'PT Serif', serif;
+}
+ 
+
+
+.inicio {
+  background-image: url(Road\ [1920x1080].jpeg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  top: 50px;
+  height: 500px;
+  padding-top: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: white;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;}
+
+.contenedor {
+  height: 20%;
+}
+
+.frrr {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: whitesmoke;
+  padding-bottom: 2%;
+  font-size: 50px;}
+
+.formulario {
+  color: white;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  width: 50%;
+  position: absolute;
+}
+
+.titulo {
+  color: white;
+  align-items: center;
+}
+
+
+.mapa{
+  position: absolute;
+  padding-left: 55%;
+  padding-top: 5%;
+}
+a:link{ text-decoration: none;
+  text-emphasis: none;}
+ A:visited {
+ color: rgb(255, 255, 255);  
+ font-family: 'PT Serif', serif; 
+ text-decoration: none  
+}
+.text-body-secondary{
+  padding: 2%;
+  letter-spacing: 3px;
+}
+
+
