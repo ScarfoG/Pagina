@@ -123,30 +123,30 @@
 
     <!--Se abre formulario-->
     <div class=" row col-md-6 formulario"  id="formulario">
-        <form class="row g-3">
+        <form class="row g-3" action="/contacto" method="post">
             <div class="col-md-6">
-                <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <label for="inputEmail4" class="form-label" >Email</label>
+                <input type="email" class="form-control" id="inputEmail4" name="email">
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Contraseña</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <input type="password" class="form-control" id="inputPassword4" name="password">
             </div>
             <div class="col-12">
                 <label for="inputAddress" class="form-label">Direccion</label>
-                <input type="text" class="form-control" id="inputAddress">
+                <input type="text" class="form-control" id="inputAddress" name="direccion">
             </div>
             <div class="col-12">
                 <label for="inputAddress2" class="form-label">Casa/departamento/piso</label>
-                <input type="text" class="form-control" id="inputAddress2">
+                <input type="text" class="form-control" id="inputAddress2" name="direccion2">
             </div>
             <div class="col-md-6">
                 <label for="inputCity" class="form-label">Ciudad</label>
-                <input type="text" class="form-control" id="inputCity">
+                <input type="text" class="form-control" id="inputCity" name="ciudad">
             </div>
             <div class="col-md-4">
                 <label for="inputState" class="form-label">Pais</label>
-                <select id="inputState" class="form-select">
+                <select id="inputState" class="form-select" npname="pais">
                     <option selected>Selecione un pais</option>
                     <option>arabia saudita</option>
                     <option>argentina</option>
@@ -155,7 +155,7 @@
             </div>
             <div class="col-md-2">
                 <label for="inputZip" class="form-label">Codigo postal</label>
-                <input type="text" class="form-control" id="inputZip">
+                <input type="text" class="form-control" id="inputZip" name="codigoPostal">
             </div>
             <div class="col-12">
             </div>
